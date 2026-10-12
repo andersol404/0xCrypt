@@ -13,7 +13,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from cryptography.fernet import Fernet, InvalidToken
+from cryptography.fernet import Fernet, InvalidToken 
 
 if __package__ in (None, ""):
     ROOT = Path(__file__).resolve().parent.parent
